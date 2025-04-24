@@ -1,0 +1,235 @@
+/* headings */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: black;
+  font-family: "3rd Man";
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("/img/hero_background.png");
+  background-size: cover;
+  display: flex;
+}
+.hero .right.col img {
+  width: 955.609px;
+  height: 1100px;
+}
+.hero .left-col p {
+  color: white;
+  margin-left: 90px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.hero .left-col .buttons {
+  margin-left: 90px;
+  margin-top: 25px;
+}
+.hero .left-col .buttons #music {
+  font-family: "Trocchi";
+  font-size: 20px;
+  border-radius: 12px;
+  background: #B6428D;
+  padding: 20px 60px;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+.hero .left-col .buttons #news {
+  font-family: "Trocchi";
+  font-size: 20px;
+  border-radius: 12px;
+  background: none;
+  padding: 20px 60px;
+  border: solid;
+  border-color: #B6428D;
+  color: white;
+  margin-right: 20px;
+}
+
+.about {
+  background-image: url("/img/background1.png");
+  display: flex;
+}
+.about .left-col img {
+  width: 701px;
+  height: 840px;
+}
+.about .right-col {
+  color: white;
+  margin: 197px 100px;
+}
+.about .right-col h1 {
+  font-family: "3rd Man";
+  font-size: 80px;
+}
+.about .right-col p {
+  font-family: "Trocchi";
+  font-size: 18px;
+}
+.about .right-col #learn {
+  font-family: "Trocchi";
+  font-size: 20px;
+  border-radius: 12px;
+  background: #B6428D;
+  padding: 20px 60px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.music-hero {
+  background-image: url("/img/background1.png");
+  color: white;
+  display: flex;
+}
+.music-hero h1 {
+  font-family: "3rd Man";
+  font-size: 72px;
+}
+.music-hero p {
+  font-family: "Trocchi";
+  font-size: 22px;
+}
+.music-hero .left-col {
+  margin: 150px 50px;
+}
+
+.albums {
+  background-image: url("/img/grunge background.png");
+  color: white;
+}
+.albums h3 {
+  font-family: "3rd Man";
+  font-size: 24px;
+}
+.albums p {
+  font-family: "Trocchi";
+}
+.albums li {
+  font-family: "Trocchi";
+}
+.albums #album {
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+.albums #album h1 {
+  font-family: "3rd Man";
+}
+.albums .let-go {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .let-go .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .under-skin {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .under-skin .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .the-best-thing {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .the-best-thing .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .goodbye {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .goodbye .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .goodbye .container img {
+  width: 286px;
+  height: 286px;
+}
+.albums .avril {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .avril .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .head-above {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .head-above .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .love-sux {
+  margin: 30px 0px;
+  padding: 20px 0px;
+}
+.albums .love-sux .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.albums .love-sux .container img {
+  width: 286px;
+  height: 286px;
+}
+
+.hero-news {
+  background-image: url("/img/background1.png");
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-news h1 {
+  font-family: "3rd Man";
+  font-size: 72px;
+}
+.hero-news p {
+  font-family: "Trocchi";
+  font-size: 22px;
+}
+.hero-news .left-col {
+  margin: 150px 50px;
+}
+
+#news {
+  background-image: url("/img/grunge background.png");
+  color: white;
+}
+#news article {
+  padding: 30px 89px;
+}
+#news article h3 {
+  font-family: "3rd Man";
+  font-size: 20px;
+}
+#news article a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
