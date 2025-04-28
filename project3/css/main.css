@@ -38,7 +38,7 @@ nav a {
   margin-top: 25px;
 }
 .hero .left-col .buttons #music {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 20px;
   border-radius: 12px;
   background: #B6428D;
@@ -47,8 +47,11 @@ nav a {
   color: white;
   margin-right: 20px;
 }
+.hero .left-col .buttons #music a {
+  text-decoration: none;
+}
 .hero .left-col .buttons #news {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 20px;
   border-radius: 12px;
   background: none;
@@ -57,6 +60,9 @@ nav a {
   border-color: #B6428D;
   color: white;
   margin-right: 20px;
+}
+.hero .left-col .buttons #news a {
+  text-decoration: none;
 }
 
 .about {
@@ -76,11 +82,11 @@ nav a {
   font-size: 80px;
 }
 .about .right-col p {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 18px;
 }
 .about .right-col #learn {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 20px;
   border-radius: 12px;
   background: #B6428D;
@@ -101,7 +107,7 @@ nav a {
   font-size: 72px;
 }
 .music-hero p {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 22px;
 }
 .music-hero .left-col {
@@ -117,10 +123,10 @@ nav a {
   font-size: 24px;
 }
 .albums p {
-  font-family: "Trocchi";
+  font-family: "Verdana";
 }
 .albums li {
-  font-family: "Trocchi";
+  font-family: "Verdana";
 }
 .albums #album {
   background-color: black;
@@ -130,6 +136,7 @@ nav a {
   justify-content: center;
   justify-content: space-evenly;
   padding: 20px 0px;
+  font-family: "3rd Man";
 }
 .albums #album h1 {
   font-family: "3rd Man";
@@ -222,7 +229,7 @@ nav a {
   font-size: 72px;
 }
 .hero-news p {
-  font-family: "Trocchi";
+  font-family: "Verdana";
   font-size: 22px;
 }
 .hero-news .left-col {
@@ -230,18 +237,41 @@ nav a {
 }
 
 #news {
-  background-image: url("/img/grunge-background.png");
-  color: white;
+  background-color: white;
+  color: black;
+}
+#news h2 {
+  font-family: "3rd Man";
+  font-size: 36px;
+  text-align: center;
+  color: #B6428D;
+  padding-top: 20px;
 }
 #news article {
-  padding: 30px 89px;
+  padding: 20px 90px;
 }
 #news article h3 {
   font-family: "3rd Man";
-  font-size: 20px;
+  font-size: 28px;
 }
 #news article a {
   text-decoration: none;
-  color: white;
+  color: #B6428D;
   font-weight: 700;
+}
+#news article p {
+  font-family: "Verdana";
+}
+
+footer {
+  background-color: black;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer nav {
+  display: flex;
+  font-size: 18px;
+  font-family: "Verdana";
 }/*# sourceMappingURL=main.css.map */
