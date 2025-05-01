@@ -1,0 +1,476 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-family: "Arial";
+}
+
+header {
+  background-color: #2A9D8F;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #logo {
+  font-family: "Blueberry";
+  font-size: 28px;
+  padding: 0px 270px 0px 60px;
+}
+header .menu-items {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  font-family: "Arial";
+}
+header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.home-hero {
+  display: flex;
+}
+.home-hero .left-col #welcome {
+  font-size: 24px;
+  margin: 80px 0px 25px 60px;
+}
+.home-hero .left-col button {
+  margin-left: 60px;
+  background-color: #FFC857;
+  width: 245px;
+  height: 88px;
+  padding: 36px 69px;
+  border: none;
+  font-family: "Arial";
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  font-size: 18px;
+}
+.home-hero .right-col {
+  margin: 0px 0px 0px 356px;
+}
+.home-hero .right-col .container {
+  position: absolute;
+  top: 30%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+}
+.home-hero .right-col h1 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.home-hero .right-col p {
+  padding-bottom: 10px;
+}
+.home-hero .right-col button {
+  background-color: #FFC857;
+  color: black;
+  width: 245px;
+  height: 88px;
+  padding: 36px 69px;
+  border: none;
+  font-family: "Arial";
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  font-size: 18px;
+}
+
+.home-videos {
+  display: flex;
+  background-color: #2A9D8F;
+  color: white;
+  padding: 40px 0px;
+}
+.home-videos .left-col {
+  margin-left: 60px;
+}
+.home-videos h2 {
+  font-family: "Blueberry";
+  padding-bottom: 15px;
+}
+.home-videos h3 {
+  font-weight: 700;
+  font-family: "Arial";
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.home-videos .right-col {
+  position: absolute;
+  top: 70%;
+  left: 47%;
+}
+.home-videos .video-container iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.home-blogs {
+  background-color: #FFC857;
+  padding: 30px 0px;
+}
+.home-blogs .container {
+  margin-left: 60px;
+}
+.home-blogs .container h2 {
+  font-family: "Blueberry";
+  padding: 20px 0;
+}
+.home-blogs .container h3 {
+  font-weight: 700;
+  font-family: "Arial";
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.home-blogs .container a {
+  color: black;
+  text-decoration: none;
+  font-family: "Arial";
+}
+.home-blogs .container p {
+  padding-right: 160px;
+}
+
+.my-profile-hero {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.my-profile-hero .right-col {
+  margin-left: 50px;
+}
+.my-profile-hero .right-col h1 {
+  font-family: "Blueberry";
+}
+.my-profile-hero .right-col p {
+  padding: 10px 0px;
+}
+.my-profile-hero .right-col button {
+  background-color: #FFC857;
+  width: 245px;
+  height: 88px;
+  padding: 36px 69px;
+  border: none;
+  font-family: "Arial";
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  font-size: 18px;
+}
+
+.vet {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 60px 69px;
+}
+.vet h2 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.vet li {
+  font-family: "Arial";
+}
+.vet p {
+  padding: 5px 0px;
+}
+
+.store {
+  background-color: #FFC857;
+  color: black;
+  padding: 60px 69px;
+}
+.store h2 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.store li {
+  font-family: "Arial";
+}
+.store p {
+  font-family: "Arial";
+}
+.store .store-gallery {
+  font-family: "Arial";
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet-hero {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.pet-hero .right-col {
+  margin-left: 50px;
+}
+.pet-hero .right-col h1 {
+  font-family: "Blueberry";
+}
+.pet-hero .right-col p {
+  padding: 10px 0px;
+}
+.pet-hero .right-col button {
+  background-color: #FFC857;
+  width: 245px;
+  height: 88px;
+  padding: 36px 69px;
+  border: none;
+  font-family: "Arial";
+  align-content: center;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  font-size: 18px;
+}
+
+.pet-gallery h2 {
+  font-family: "Blueberry";
+  text-align: center;
+  padding: 10px 0px;
+}
+.pet-gallery .gallery {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.milestone {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 60px 69px;
+}
+.milestone h2 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.milestone li {
+  font-family: "Arial";
+}
+.milestone p {
+  padding: 5px 0px;
+}
+
+.diet {
+  background-color: #FFC857;
+  color: black;
+  padding: 60px 69px;
+}
+.diet h2 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.diet li {
+  font-family: "Arial";
+}
+.diet p {
+  padding: 5px 0px;
+}
+
+.shots {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 60px 69px;
+}
+.shots h2 {
+  font-family: "Blueberry";
+  padding-bottom: 10px;
+}
+.shots li {
+  font-family: "Arial";
+}
+.shots p {
+  padding: 5px 0px;
+}
+
+.reminders-hero {
+  margin: 30px 60px;
+}
+.reminders-hero h1 {
+  font-family: "Blueberry";
+}
+
+.appointments {
+  margin-left: 60px;
+}
+.appointments h2 {
+  font-family: "Arial";
+}
+.appointments li {
+  font-family: "Arial";
+}
+.appointments .container {
+  padding-bottom: 20px;
+}
+
+.reminders {
+  margin-left: 60px;
+}
+.reminders h2 {
+  font-family: "Arial";
+}
+.reminders li {
+  font-family: "Arial";
+}
+.reminders .container {
+  padding-bottom: 20px;
+}
+
+.checklist {
+  margin-left: 60px;
+}
+.checklist h2 {
+  font-family: "Arial";
+}
+.checklist li {
+  font-family: "Arial";
+}
+.checklist .container {
+  padding-bottom: 20px;
+}
+
+.resources-hero {
+  margin: 30px 60px;
+}
+.resources-hero h1 {
+  font-family: "Blueberry";
+}
+
+.symptoms .container {
+  margin-left: 60px;
+  padding: 15px;
+}
+.symptoms h2 {
+  font-family: "Arial";
+}
+.symptoms p {
+  font-family: "Arial";
+}
+
+.emergency-signs {
+  background-color: #2A9D8F;
+  color: white;
+  padding: 60px 0px;
+}
+.emergency-signs h2 {
+  text-align: center;
+}
+.emergency-signs p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+table {
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-family: "Arial";
+}
+table th, table td {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+}
+
+.tips {
+  margin-left: 60px;
+  padding: 15px;
+}
+.tips h2 {
+  font-family: "Arial";
+}
+.tips p {
+  font-family: "Arial";
+}
+
+.contact-help {
+  margin-left: 60px;
+  padding: 15px;
+}
+.contact-help h2 {
+  font-family: "Arial";
+}
+.contact-help p {
+  font-family: "Arial";
+}
+
+footer {
+  background-color: #003D35;
+  color: white;
+  padding: 40px 60px;
+  font-family: "Arial";
+}
+footer .footer-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+footer .footer-hero .footer-section {
+  max-width: 300px;
+}
+footer .footer-hero .footer-section h4 {
+  font-family: "Blueberry";
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+footer .footer-hero .footer-section p {
+  font-size: 16px;
+}
+footer .footer-hero .links h5,
+footer .footer-hero .contact h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+footer .footer-hero .links ul,
+footer .footer-hero .contact ul {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-hero .links ul li,
+footer .footer-hero .contact ul li {
+  margin-bottom: 8px;
+}
+footer .footer-hero .links ul li a,
+footer .footer-hero .contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-hero .links ul li a:hover,
+footer .footer-hero .contact ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer-hero .links p,
+footer .footer-hero .contact p {
+  margin: 4px 0;
+}
+footer .footer-hero .links p a,
+footer .footer-hero .contact p a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-hero .links p a:hover,
+footer .footer-hero .contact p a:hover {
+  text-decoration: underline;
+}
+footer .footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
